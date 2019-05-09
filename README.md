@@ -1,5 +1,5 @@
 
-# ringcetral-engage-demo-email-auto-reply-bot
+# ringcentral-engage-demo-email-auto-reply-bot
 
 Demo bot that will auto reply every email with simple message for [RingCentral Engage(Dimelo)](https://www.dimelo.com/en/dimelo-digital).
 
