@@ -12,7 +12,7 @@ export const verify = (req, res) => {
   let mode = q['hub.mode']
   let c = q['hub.challenge']
   let vt = q['hub.verify_token']
-  if (mode !== 'subscribe' || !c) {
+  if (mode !== 'subscribe') {
     return res.status(400).send('mode not right')
   } else if (!c) {
     return res.status(400).send('challenge not exist')
